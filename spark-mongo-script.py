@@ -1,4 +1,6 @@
+"""
 $ pyspark --packages org.mongodb.spark:mongo-spark-connector_2.11:2.2.6 --master yarn --queue default --name machine_leaning 
+"""
 
 from pymongo import mongoclient
 from datetime import datetime
